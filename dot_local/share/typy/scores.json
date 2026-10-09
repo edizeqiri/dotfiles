@@ -1,0 +1,54 @@
+{
+  "scores": [
+    {
+      "timestamp": "2026-10-06T10:19:31.596255",
+      "wpm": 38,
+      "raw": 38,
+      "accuracy": 99.41521
+    },
+    {
+      "timestamp": "2026-10-06T13:36:47.398306",
+      "wpm": 37,
+      "raw": 38,
+      "accuracy": 99.484535
+    },
+    {
+      "timestamp": "2026-10-06T13:39:39.950808",
+      "wpm": 38,
+      "raw": 38,
+      "accuracy": 99.18699
+    },
+    {
+      "timestamp": "2026-10-06T13:40:51.755209",
+      "wpm": 28,
+      "raw": 28,
+      "accuracy": 100.0
+    },
+    {
+      "timestamp": "2026-10-06T13:41:46.130919",
+      "wpm": 32,
+      "raw": 33,
+      "accuracy": 99.18033
+    }
+  ],
+  "averages": {
+    "wpm_avg": {
+      "avg": 34.6,
+      "count": 5,
+      "sum_all": 173
+    },
+    "raw_avg": {
+      "avg": 35.0,
+      "count": 5,
+      "sum_all": 175
+    },
+    "accuracy_avg": {
+      "avg": 99.453415,
+      "count": 5,
+      "sum_all": 497.26706
+    }
+  },
+  "records": {
+    "0": 38
+  }
+}

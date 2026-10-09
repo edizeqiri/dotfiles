@@ -1,0 +1,15 @@
+theme = "Catppuccin Mocha"
+cursor = "block"
+content = "code"
+code_language = "cpp"
+
+[language]
+lang = "english"
+
+[modes]
+default_mode = "punctuation, numbers"
+
+[game]
+time = 30
+# For more information about the configuration check:
+# https://github.com/Pazl27/typy-cli?tab=readme-ov-file#configuration

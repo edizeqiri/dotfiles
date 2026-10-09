@@ -1,0 +1,90 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font"
+  },
+  "agent_buffer_font_size": 11.0,
+  "agent_ui_font_size": 14.0,
+  "ui_font_weight": 350.0,
+  "agent": {
+    "default_profile": "write",
+    "default_model": {
+      "effort": "medium",
+      "provider": "openai-subscribed",
+      "model": "gpt-5.5",
+      "enable_thinking": true
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "context_servers": {
+    "cavemem": {
+      "enabled": true,
+      "remote": false,
+      "command": "cavemem",
+      "args": [
+        "mcp"
+      ],
+      "env": {}
+    }
+  },
+  "colorize_brackets": true,
+  "show_edit_predictions": false,
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 0,
+    },
+  },
+  "git_panel": {
+    "tree_view": false,
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry"
+    }
+  },
+  "ui_font_size": 14.0,
+  "buffer_font_size": 12.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "VSCode Dark Modern",
+  },
+
+  "languages": {
+    "TypeScript": {
+      "show_edit_predictions": true
+    },
+    "Kotlin": {
+      "language_servers": ["kotlin-lsp"],
+    },
+  },
+  "lsp": {
+    "kotlin-lsp": {
+      "binary": {
+        "path": "/opt/homebrew/bin/kotlin-lsp",
+        "arguments": ["--stdio"],
+        "env": {
+          "JAVA_HOME": "/Library/Java/JavaVirtualMachines/temurin-21.jdk/",
+        },
+      },
+    },
+    "jdtls": {
+      "settings": {
+        "java_home": "/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/",
+        "lombok_support": true,
+      },
+    },
+  },
+
+}
